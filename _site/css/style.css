@@ -4,7 +4,7 @@ a { color: #0366d6; }
 
 code, pre { font-family: Menlo, Consolas, "Consolas for Powerline", "Courier New", Courier, monospace; background-color: #2b2b2b; color: #fff; padding: 0.25em; }
 
-.resource-grid { border: 2px blue solid; height: 500px; width: 500px; display: grid; grid-template: 1fr 1fr 1fr 1fr / 50% 50%; justify-items: center; align-items: center; }
+.resource-grid { border: 2px blue solid; height: 500px; width: 100%; max-width: 400px; display: grid; grid-template: 1fr 1fr 1fr 1fr / 50% 50%; justify-items: center; align-items: center; margin: 0 auto; }
 
 .resource-item1 { grid-area: 1 / 1 / span 1 / span 1; }
 
