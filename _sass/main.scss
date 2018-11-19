@@ -12,6 +12,28 @@ a {
   color: #0366d6;
 }
 
+.resource-main {
+    display: block;
+    height: 500px;
+    width: 100%;
+}
+
+#resource-new-tech {
+    background: url("/assets/images/baby-chickens.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#resource-advanced-tech {
+    background: url(/assets/images/adult-chicken.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 code,
 pre {
   font-family: Menlo, Consolas, "Consolas for Powerline", "Courier New", Courier, monospace;
@@ -32,6 +54,7 @@ pre {
     margin: 0 auto;
 }
 
+// grid 2x2
 .resource-item1 {
     grid-area: 1 / 1 / span 1 / span 1;
 }
