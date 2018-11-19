@@ -16,4 +16,6 @@ code, pre { font-family: Menlo, Consolas, "Consolas for Powerline", "Courier New
 
 /*@media only screen and (min-width: 768px) { body{ background: rebeccapurple; }
 }*/
+.whatcanwedo { display: flex; margin: 0 auto; width: 80%; justify-content: center; text-align: center; }
+
 .navList ul { list-style: none; color: black; }
