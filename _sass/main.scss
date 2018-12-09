@@ -14,11 +14,25 @@ a {
 
 .resource-main {
     display: block;
-    height: 500px;
+    height: 50vh;
     width: 100%;
+    position: relative;
 }
 
-#resource-new-tech {
+.resource-main-content {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    color: white;
+    padding-left: 1em;
+}
+
+.resource-main-content h2 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.resource-new-tech {
     background: url("/assets/images/baby-chickens.jpg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -26,8 +40,8 @@ a {
     background-size: cover;
 }
 
-#resource-advanced-tech {
-    background: url(/assets/images/adult-chicken.jpg) no-repeat center center;
+.resource-advanced-tech {
+    background: url("/assets/images/adult-chicken.jpg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -71,11 +85,23 @@ pre {
     grid-area: 2 / 2 / span 1 / span 1;
 }
 
-/*@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
     body{
         background: rebeccapurple;
     }
-}*/
+    .resource-main-content{
+        padding-left: 5em;
+    }
+    
+    .resource-main-content h2 {
+        font-size: 3em;
+        font-weight: bold;
+    }
+    
+    .resource-main-content p {
+        font-size: 1.5em;
+    }
+}
 
 
 
