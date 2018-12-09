@@ -2,7 +2,21 @@
 layout: default
 title: Long Beach Women in Tech 
 ---
-{% include navigation.html %}
-<a href="new-to-tech-resources.html">New To Tech</a>
 
+{% include navigation.html %}
+{% include subpage-header.html %}
+<div>
+    <a class="resource-new-tech resource-main" href="new-tech-resources.html">
+        <div class="resource-main-content">
+            <h2>Learning Something New?</h2>
+            <p>Resources for beginners.</p>
+        </div>
+    </a>
+    <a class="resource-advanced-tech resource-main" href="advanced-tech-resources.html">
+        <div class="resource-main-content">
+            <h2>Level Up!</h2>
+            <p>Intermediate to Advanced Topics</p>
+        </div>
+    </a>
+</div>
 
