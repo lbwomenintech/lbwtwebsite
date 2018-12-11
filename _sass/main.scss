@@ -12,6 +12,12 @@ a {
   color: #0366d6;
 }
 
+img{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
 .resource-main {
     display: block;
     height: 50vh;
@@ -103,12 +109,75 @@ pre {
     }
 }
 
+.home-pg p{
+    color: black;
+}
 
 
 
+.home-pg h2, .spotlight h2{
+  font-size: 2em;  
+  background: -webkit-linear-gradient(#6948e9, #a052f7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+} 
 
 .whatcanwedo{
-  
+    padding: 10% 5%;
+}
+
+.whatcanwedogrid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: ". ." ". .";
+  margin: 10% 0;
+
+}
+
+.whatcanwedogrid .grid-item h3{
+    font-size: 1em;
+    margin-top: 1em;
+    color: #0000008f;
+
+}
+
+.whatcanwedogrid .grid-item {
+  justify-self: center;
+  text-align: center;
+}
+
+.whatcanwedogrid .grid-item i{
+    font-size: 4em;
+    -webkit-box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.29);
+    -moz-box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.29);
+    box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.29);
+     border-radius: 50%;
+    border: 1x solid grey;
+    padding:10px;
+    color: white;
+     background:  #6200EA;
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 90px;
+    vertical-align: middle;
+    padding: 5px;
+
+}
+
+.home-pg .spotlight{
+    background: #0000001a;
+}
+
+.home-pg .spotlight h2, .home-pg .spotlight p{
+   
+    // padding-left: 5%;
+    // padding-top: 10%;
+    padding: 10% 5%;
 }
 
 
