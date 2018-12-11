@@ -16,6 +16,7 @@ img{
     max-width: 100%;
     width: 100%;
     height: auto;
+    display: block;
 }
 
 .resource-main {
@@ -117,7 +118,7 @@ pre {
 
 .home-pg h2, .spotlight h2{
   font-size: 2em;  
-  background: -webkit-linear-gradient(#6948e9, #a052f7);
+  background: -webkit-linear-gradient(45deg, #6948e9, #a052f7);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 800;
@@ -166,6 +167,7 @@ pre {
     line-height: 90px;
     vertical-align: middle;
     padding: 5px;
+    background: -webkit-linear-gradient(45deg, #6948e9, #a052f7);
 
 }
 
@@ -181,7 +183,34 @@ pre {
 }
 
 
+.id-parent{
+    position: relative;
+}
 
+.id-parent img{
+    width: 80%;
+    padding-left: 5%;
+}
+
+.spotlight-id{
+    position: absolute;
+    z-index: -1;
+    right: 25px;
+    padding: 5% 8%;
+    top: 96%;
+    background: -webkit-linear-gradient(45deg, #6948e9, #a052f7);
+    color: white;
+}
+
+.spotlight p{
+    margin-top: 30%;
+}
+
+.spotlight-id #person-title{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
 
 
 
